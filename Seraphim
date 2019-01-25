@@ -3,15 +3,29 @@
 <head>
 <title>Seraphim - SRM</title>
 </head>
+
+
 <style>
+/* 
+	CSS for page
+	classes always start with a period(.) and 
+	id start with hashtag(#) & name of id
+	*/
 	
 
 </style>
 
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+	<!-- 
+		Authored by: Christa Stephens
+		Date: 01/25/2019
+		Seraphim - SRM
+	-->
+
+
+
+
 
 </body>
 </html>
