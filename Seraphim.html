@@ -20,6 +20,19 @@
 	     background-color: #cce6ff;
 
 	}	
+
+
+	/*** 
+	START Navbar - 
+	absolute position- moves along the page
+	top (think from the top)
+	left (think from the left) 
+	 **/
+	 .top-left {
+	  position: absolute;
+	  top: 8px;
+	  left: 16px;
+}
 	
 
 </style>
@@ -41,7 +54,38 @@
 			<!-- placeholder image, replace when receive client image -->
 	<img class=SRMmainImage" src="https://www.jooomshaper.com/data/out/8/IMG_221761.png" alt="Seraphim main image" style="width:100%;">
 
+	<!-- START Navbar
+		a div is a box
+	 -->
 
+	 <div class="container">
+			<!--&time is an html entity for "x" -->
+	 	<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<!--	# keeps the page from refreshing -->
+			<a href="#">bio-tour</a>
+			<a href="#">github-shop</a>
+			<a href="#">projects-music</a>
+			<a href="#">code-videos</a>
+			<a href="#">ellasodes</a>
+		</div>
+	</div>
+
+
+
+
+
+
+	 <!--Java script, always goes at the bottom -->
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+	}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
 
 
 
